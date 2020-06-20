@@ -1,0 +1,293 @@
+yarn run v1.22.4
+$ cross-env NODE_ENV=test jest
+  console.error
+    Unhandled error
+
+      at process.uncaught (node_modules/jest-jasmine2/build/jasmine/Env.js:248:21)
+
+  console.error
+    error: database "gostack_desafio09_tests" does not exist
+        at Connection.parseE (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\pg\lib\connection.js:581:48)
+        at Connection.parseMessage (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\pg\lib\connection.js:380:19)
+        at Socket.<anonymous> (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\pg\lib\connection.js:116:22)
+        at Socket.emit (events.js:310:20)
+        at addChunk (_stream_readable.js:286:12)
+        at readableAddChunk (_stream_readable.js:268:9)
+        at Socket.Readable.push (_stream_readable.js:209:10)
+        at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+
+      at process.uncaught (node_modules/jest-jasmine2/build/jasmine/Env.js:249:21)
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateCustomerService" constructor. Reason:
+        No repository for "Customer" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:10:38
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateCustomerService" constructor. Reason:
+        No repository for "Customer" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:10:38
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateProductService" constructor. Reason:
+        No repository for "Product" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:9:37
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateProductService" constructor. Reason:
+        No repository for "Product" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:9:37
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateProductService" constructor. Reason:
+        No repository for "Product" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:9:37
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateCustomerService" constructor. Reason:
+        No repository for "Customer" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:10:38
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateOrderService" constructor. Reason:
+        No repository for "Order" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:19:35
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateOrderService" constructor. Reason:
+        No repository for "Order" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:19:35
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateCustomerService" constructor. Reason:
+        No repository for "Customer" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:10:38
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateOrderService" constructor. Reason:
+        No repository for "Order" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:19:35
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateCustomerService" constructor. Reason:
+        No repository for "Customer" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:10:38
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateProductService" constructor. Reason:
+        No repository for "Product" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:9:37
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateOrderService" constructor. Reason:
+        No repository for "Order" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:19:35
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateCustomerService" constructor. Reason:
+        No repository for "Customer" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:10:38
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\customers\infra\http\controller\CustomersController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateProductService" constructor. Reason:
+        No repository for "Product" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:9:37
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\products\infra\http\controller\ProductsController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "CreateOrderService" constructor. Reason:
+        No repository for "Order" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:19:35
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+  console.log
+    Error: Cannot inject the dependency at position #0 of "FindOrderService" constructor. Reason:
+        No repository for "Order" was found. Looks like this entity is not registered in current "default" connection?
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:209:23
+        at Array.map (<anonymous>)
+        at InternalDependencyContainer.construct (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:195:34)
+        at InternalDependencyContainer.resolve (D:\Rocketseat\challenges\gostack-typeorm-relations\node_modules\tsyringe\dist\cjs\dependency-container.js:81:25)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:11:33
+        at step (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:33:23)
+        at Object.next (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:14:53)
+        at D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:8:71
+        at new Promise (<anonymous>)
+        at __awaiter (D:\Rocketseat\challenges\gostack-typeorm-relations\src\modules\orders\infra\http\controller\OrdersController.ts:4:12)
+
+      at src/shared/infra/http/app.ts:29:11
+
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

@@ -20,7 +20,7 @@ class Product {
   @Column({ type: 'decimal', precision: 5, scale: 2 })
   price: number;
 
-  @Column('decimal')
+  @Column({ type: 'float', precision: 5, scale: 0 })
   quantity: number;
 
   @OneToMany(() => OrdersProducts, orderProduct => orderProduct.product)
